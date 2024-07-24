@@ -1,0 +1,84 @@
+
+body{
+    background-color: rgb(87, 231, 231);
+}
+
+.todoList{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    /* width: 37rem; */
+    border: 3px solid;
+    /* height: 35rem; */
+    /* position: relative;
+    left: 20rem; */
+}
+h1{
+    font-size: 4rem;
+    color: white;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+.addBtn{
+    background-color: rgb(5, 252, 5);
+}
+.addBtn:hover{
+    background-color: rgb(48, 182, 48);
+}
+
+.deleteBtn{
+    background-color: rgb(224, 24, 24);
+}
+
+.deleteBtn:hover{
+    background-color: rgb(238, 84, 84);
+}
+.upBtn{
+    background-color: rgb(100, 100, 240);
+}
+.downBtn{
+    background-color: rgb(100, 100, 240);
+}
+
+.upBtn:hover{
+    background-color: rgb(0, 0, 248);
+}
+.downBtn:hover{
+    background-color: rgb(0, 0, 248);
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: rgb(61, 60, 60);
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgb(250, 248, 245);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.deleteBtn, .upBtn, .downBtn{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
